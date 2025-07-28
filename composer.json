@@ -1,0 +1,20 @@
+{
+  "name": "guanlam03/submodule-repo-new",
+  "description": "Reusable blade view package",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "guanlam03\\submodule-repo-new\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "guanlam03\\submodule-repo-new\\SubPackageServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
