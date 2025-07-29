@@ -1,20 +1,19 @@
 {
   "name": "guanlam03/submodule-repo-new",
-  "description": "Reusable blade view package",
+  "description": "A test Laravel submodule package",
   "type": "library",
-  "license": "MIT",
   "autoload": {
     "psr-4": {
-      "guanlam03\\submodule-repo-new\\": "src/"
+      "Guanlam03\\SubmoduleRepoNew\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "guanlam03\\submodule-repo-new\\SubPackageServiceProvider"
+        "Guanlam03\\SubmoduleRepoNew\\SubPackageServiceProvider"
       ]
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true
 }
